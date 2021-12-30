@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Break Time</string>
+    <string name="break_time_calculator">Break Time Calculator</string>
+    <string name="break_time_amount_in_minutes">Break Time amount (in minutes)</string>
+    <string name="break_over">Break Over:</string>
+    <string name="calculate">Calculate</string>
+    <string name="_0">0</string>
+
+</resources>
