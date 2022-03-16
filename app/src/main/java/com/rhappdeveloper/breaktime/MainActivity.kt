@@ -42,11 +42,6 @@ class MainActivity : AppCompatActivity() {
             if (resultHour > 12)
                 resultHour %= 12
 
-//            if (resultMinutes < 10) {
-//                binding.resultTV.text = "$resultHour:$resultMinutesUnder10$resultMinutes"
-//            } else {
-//                binding.resultTV.text = "$resultHour:$resultMinutes"
-//            }
             binding.resultTV.text = String.format("%2d:%02d", resultHour, resultMinutes)
         }
     }
